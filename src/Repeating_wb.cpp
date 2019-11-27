@@ -2,14 +2,14 @@
 // Name        : Repeating_wb.cpp
 // Author      : Oleg Kostyuchenko
 // Version     :
-// Copyright   : Your copyright notice
-// Description : Hello World in C++, Ansi-style
+// Copyright   : Oleg Kostyuchenko
+// Description : Повторение White Belt
 //============================================================================
 
 #include <iostream>
 using namespace std;
 
 int main() {
-	cout << "!!!Hello World!!!" << endl; // prints !!!Hello World!!!
+
 	return 0;
 }
