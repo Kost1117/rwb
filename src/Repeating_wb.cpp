@@ -8,12 +8,12 @@
 
 #include <iostream>
 #include <vector>
+#include <algorithm>
 using namespace std;
 
 int main() {
-	vector<string> nums = {"1", "2", "5", "9", "5", "8"};
-	for (auto n : nums) {
-		cout << n << ',';
-	}
+	vector<int> nums = {1, 2, 5, 9, 5, 8};
+	int qty = count(begin(nums), end(nums), 5);
+	cout << "There are " << qty << " 5s in the nums.";
 	return 0;
 }
