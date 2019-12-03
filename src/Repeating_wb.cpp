@@ -13,7 +13,9 @@ using namespace std;
 
 int main() {
 	vector<int> nums = {1, 2, 5, 9, 5, 8};
-	int qty = count(begin(nums), end(nums), 5);
-	cout << "There are " << qty << " 5s in the nums.";
+	sort(begin(nums), end(nums));
+	for (auto n : nums) {
+		cout << n << ' ';
+	}
 	return 0;
 }
