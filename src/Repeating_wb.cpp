@@ -11,8 +11,8 @@
 using namespace std;
 
 int main() {
-	vector<int> nums = {1, 2, 5, 9, 5, 8};
-	for (int n : nums) {
+	vector<string> nums = {"1", "2", "5", "9", "5", "8"};
+	for (auto n : nums) {
 		cout << n << ',';
 	}
 	return 0;
